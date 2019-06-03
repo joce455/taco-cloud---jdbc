@@ -24,9 +24,3 @@ insert into Ingredient (id, name, type)
                 values ('SLSA', 'Salsa', 'SAUCE');
 insert into Ingredient (id, name, type) 
 values ('SRCR', 'Sour Cream', 'SAUCE');
-
-insert into users(username,password,enabled)
-	values('admin','admin',true);
-insert into authorities(username,authority) 
-	values('admin','ROLE_ADMIN');
-                
